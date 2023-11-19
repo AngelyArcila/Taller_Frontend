@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:wght@400;700&family=Itim&family=Kodchasan:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    border: o;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body {
+    font-family: 'Gentium Book Plus', serif;
+    font-family: 'Kodchasan', sans-serif;
+    background-color: #E8F1DD;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    position: relative;
+
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+
+}
+
+nav {
+    height: 190px;
+    width: 100%;
+}
+
+.enlace {
+    position: absolute;
+    padding: 20px 50px;
+}
+
+.logo {
+    height: 150px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 190px;
+    margin: 0 8px;
+}
+
+nav ul li a {
+    color: #C7781C;
+    font-size: 18px;
+    padding: 7px 13px;
+    font-family: 'Kodchasan', sans-serif;
+
+}
+
+.checkbtn {
+    font-size: 40px;
+    color: #C7781C;
+    float: right;
+    line-height: 80px;
+    margin: right 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+#menu {
+    display: none;
+}
+
+.menu_icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.leaves {
+    position: absolute;
+    width: 700px;
+    left: 0px;
+    top: 20px;
+    z-index: -1;
+
+}
+
+
+.header_info {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-right: 100px;
+
+}
+
+.header_text {
+    width: 500%;
+    padding left: 335px;
+}
+
+.header_text h1 {
+    font-family: 'Gentium Book Plus', serif;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    color: #376d41;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+
+
+}
+
+.header_text p {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 16px;
+    color: #545454;
+    margin-bottom: 35px;
+    text-align: justify;
+}
+
+.btn_1 {
+    font-family: 'Gentium Book Plus', serif;
+    display: inline-block;
+    background-color: #C7781C;
+    padding: 13px 30px;
+    border-radius: 25px;
+    color: rgb(248, 248, 251);
+    text-transform: capitalize;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.btn_1:hover {
+    background-color: #376d41;
+}
+
+.header_img {
+    width: 50%;
+}
+
+.header_img img {
+    width: 650px;
+}
+
+.social_icons {
+    position: fixed;
+    left: 10px;
+    top: 50%;
+}
+
+.social_icons a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+
+.social_icons img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.social_icons a:hover {
+    transform: scale(1.2);
+}
+
+.float img {
+    position: fixed;
+    width: 80px;
+    height: 60px;
+    line-height: 60px;
+    bottom: 40px;
+    right: 40px;
+    z-index: 500;
+    object-fit: contain;
+}
